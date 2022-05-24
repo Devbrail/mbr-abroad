@@ -39,7 +39,7 @@
     <script src="./js/url.js"></script>
 
     <script>
-        fetch(`${url}/getBlogs${window.location.search}`)
+        fetch(`${url}/getBlogs${window.location.search}`, {})
             .then((e) => {
                 e.json().then((blogs) => {
                     var myHTML =

@@ -33,7 +33,6 @@
         function getAllBlogs() {
             console.log('fetching blgs');
             fetch(`${url}/getBlogs`, {
-                    mode: 'no-cors',
                     headers: {
                         'Access-Control-Allow-Origin': '*'
                     }
@@ -72,7 +71,6 @@
         function deleteBlogs(id) {
 
             fetch(`${url}/deleteBlogs?id=${id}`, {
-                    mode: 'no-cors',
                     headers: {
                         'Access-Control-Allow-Origin': '*'
                     }
