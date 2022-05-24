@@ -35,13 +35,16 @@
 
     <script>
         fetch(`${url}/getBlogs`, {
-                mode: 'no-cors',
+
                 headers: {
-                    'Access-Control-Allow-Origin': '*'
+
+                    'Accept': 'application/json',
+
                 }
             })
-            .then((e) => {
-                e.json().then((blogs) => {
+            .then(async (res) => {
+                console.log(res.text, 'te');
+                res.json().then((blogs) => {
                     var wrapper = document.getElementById(" blogs");
                     var myHTML = '';
                     let blogsList = [];
@@ -81,7 +84,7 @@
 
             })
             .catch((e) => {
-
+                console.log(e);
             })
     </script>
     <!--[if lte IE 9]>
