@@ -56,11 +56,10 @@
                         .then((res) => {
                             console.log('success', res);
                             alert('Blog created succefully');
-                            window.location = 'index.html'
-                        }).then((er) => {
+                            // window.location = 'index.html'
+                        }).catch((er) => {
                             console.log('error', er);
                             alert('Blog creation failed');
-
 
                         })
                     console.log('sssssssss', json);
