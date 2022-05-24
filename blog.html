@@ -34,7 +34,11 @@
     <script src="./js/url.js"></script>
 
     <script>
-        fetch(`${url}/getBlogs`)
+        fetch(`${url}/getBlogs`, {
+                headers: {
+                    'Access-Control-Allow-Origin': '*'
+                }
+            })
             .then((e) => {
                 e.json().then((blogs) => {
                     var wrapper = document.getElementById(" blogs");
