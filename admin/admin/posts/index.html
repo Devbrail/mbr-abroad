@@ -33,9 +33,7 @@
         function getAllBlogs() {
             console.log('fetching blgs');
             fetch(`${url}/getBlogs`, {
-                    headers: {
-                        'Access-Control-Allow-Origin': '*'
-                    }
+
                 })
                 .then((e) => {
                     e.json().then((blogs) => {
@@ -70,11 +68,7 @@
 
         function deleteBlogs(id) {
 
-            fetch(`${url}/deleteBlogs?id=${id}`, {
-                    headers: {
-                        'Access-Control-Allow-Origin': '*'
-                    }
-                })
+            fetch(`${url}/deleteBlogs?id=${id}`)
                 .then((e) => {
                     console.log('Blogs deleted succesfully');
                     e.json().then((blogs) => {

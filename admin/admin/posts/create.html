@@ -48,9 +48,6 @@
                     fetch(`${url}/createBlogs`, {
                             method: 'POST',
                             body: JSON.stringify(json),
-                            headers: {
-                                'Access-Control-Allow-Origin': '*'
-                            }
                         })
                         .then((res) => {
                             console.log('success', res);
