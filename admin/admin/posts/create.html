@@ -48,14 +48,12 @@
                     fetch(`${url}/createBlogs`, {
                             method: 'POST',
                             body: JSON.stringify(json),
-                            mode: 'no-cors',
-                            headers: {
-                                'Accept': 'application/json',
-                                'Content-Type': 'text/plain'
-                            }
+
                         })
-                        .then((res) => {
+                        .then(async (res) => {
                             console.log('success', res);
+                            console.log('success', res.body);
+                            console.log('success', await res.json());
                             alert('Blog created succefully');
                             // window.location = 'index.html'
                         }).catch((er) => {
