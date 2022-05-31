@@ -629,7 +629,7 @@ ol li {
   background-color: var(--ltn__primary-color-2); }
 
 .ltn__secondary-bg {
-  background-color: var(--ltn__secondary-color); }
+  background-color: rgb(18, 18, 62); }
 
 .ltn__secondary-bg-2 {
   background-color: var(--ltn__secondary-color-2); }
@@ -5293,7 +5293,7 @@ ul.wp-block-latest-posts.is-grid.alignwide {
       color: var(--ltn__primary-color) !important; }
 
 .menu-color-white .ltn__main-menu > ul > li > a {
-  color: var(--white); }
+  color: var(--black); }
 
 /* ----------------------------------------
   Header 5
@@ -5352,7 +5352,7 @@ ul.wp-block-latest-posts.is-grid.alignwide {
 
 /* Sticky Background Black */
 .sticky-active.ltn__sticky-bg-black {
-  background-color: var(--ltn__heading-color); }
+  background-color: var(--white); }
   .sticky-active.ltn__sticky-bg-black .ltn__main-menu > ul > li > a,
   .sticky-active.ltn__sticky-bg-black .header-wishlist a,
   .sticky-active.ltn__sticky-bg-black .mini-cart-icon,

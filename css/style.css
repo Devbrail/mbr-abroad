@@ -386,7 +386,7 @@ h6,
 .h4,
 .h5,
 .h6 {
-  color: var(--ltn__heading-color);
+  color: rgb(18, 18, 62);
   clear: both;
   font-family: var(--ltn__heading-font);
   font-weight: 700;
@@ -5352,7 +5352,7 @@ ul.wp-block-latest-posts.is-grid.alignwide {
 
 /* Sticky Background Black */
 .sticky-active.ltn__sticky-bg-black {
-  background-color: #171b2a }
+  background-color: #ffff }
   .sticky-active.ltn__sticky-bg-black .ltn__main-menu > ul > li > a,
   .sticky-active.ltn__sticky-bg-black .header-wishlist a,
   .sticky-active.ltn__sticky-bg-black .mini-cart-icon,
@@ -5361,7 +5361,7 @@ ul.wp-block-latest-posts.is-grid.alignwide {
   .sticky-active.ltn__sticky-bg-black .header-feature-icon,
   .sticky-active.ltn__sticky-bg-black .header-search-1 .search-icon,
   .sticky-active.ltn__sticky-bg-black .ltn__header-options .ltn__drop-menu > ul > li > a {
-    color: var(--white); }
+    color: var(--black); }
   .sticky-active.ltn__sticky-bg-black .ltn__header-options-2 .header-search-1,
   .sticky-active.ltn__sticky-bg-black .ltn__header-options-2 .header-search-1 i,
   .sticky-active.ltn__sticky-bg-black .ltn__header-options-2 .ltn__drop-menu > ul > li > a,
@@ -5407,7 +5407,7 @@ ul.wp-block-latest-posts.is-grid.alignwide {
   z-index: 999;
   background-color: transparent; }
   .ltn__header-transparent .top-area-color-white {
-    background-color: transparent; }
+    background-color: black; }
 
 /* ----------------------------------------
   Utilize Mobile Menu
