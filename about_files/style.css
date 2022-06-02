@@ -14430,7 +14430,7 @@ input.cart-plus-minus-box {
   background-color: rgb(18, 18, 62);
   color: var(--white); }
   :hover {
-    background-color: white;
+    background-color: none;
     color: var(--white); }
 
 .theme-btn-2 {
