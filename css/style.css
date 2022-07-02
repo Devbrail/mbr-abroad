@@ -8551,7 +8551,7 @@ ul.wp-block-latest-posts.is-grid.alignwide {
 
 .bg-image {
   background-size: cover;
-  background-position: center center;
+  /* background-position: center center; */
   background-repeat: no-repeat; }
 
 .bg-image-top {
@@ -8599,6 +8599,7 @@ ul.wp-block-latest-posts.is-grid.alignwide {
   .bg-image-right-before::before,
   .bg-image-left-before::before {
     display: none; } }
+    
 
 .ltn__social-media-4 ul {
   margin: 0;

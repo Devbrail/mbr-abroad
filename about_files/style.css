@@ -8593,12 +8593,12 @@ ul.wp-block-latest-posts.is-grid.alignwide {
   font-weight: 400; }
 
 /* Responsive Device under :991px. */
-@media (max-width: 991px) {
+/* @media (max-width: 991px) {
   .bg-image-top {
     background-size: inherit; }
   .bg-image-right-before::before,
   .bg-image-left-before::before {
-    display: none; } }
+    display: none; } } */
 
 .ltn__social-media-4 ul {
   margin: 0;

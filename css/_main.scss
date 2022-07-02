@@ -191,7 +191,7 @@
     .bg-image-right-before,
     .bg-image-left-before {
         &::before {
-            display: none;
+            display: block;
         }
     }
 }
