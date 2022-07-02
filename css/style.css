@@ -4799,7 +4799,9 @@ ul.wp-block-latest-posts.is-grid.alignwide {
   height: 50px;
   background: var(--white);
   -webkit-box-shadow: var(--ltn__box-shadow-1);
-  box-shadow: var(--ltn__box-shadow-1); }
+  box-shadow: var(--ltn__box-shadow-1);
+  margin-left: 38px;
+ }
 
 /* ltn__drop-menu */
 .ltn__drop-menu {
@@ -5295,7 +5297,7 @@ ul.wp-block-latest-posts.is-grid.alignwide {
       color: var(--ltn__primary-color) !important; }
 
 .menu-color-white .ltn__main-menu > ul > li > a {
-  color: var(--white); }
+  color: var(--black); }
 
 /* ----------------------------------------
   Header 5
@@ -5329,8 +5331,8 @@ ul.wp-block-latest-posts.is-grid.alignwide {
 
 .ltn__header-4 .ltn__header-middle-area.sticky-active,
 .ltn__header-5 .ltn__header-middle-area.sticky-active {
-  padding-top: 10px;
-  padding-bottom: 10px; }
+  padding-top: 4px;
+  padding-bottom: 6px; }
 
 /* Sticky Background Secondary */
 .sticky-active.ltn__sticky-bg-secondary {
